@@ -1,0 +1,163 @@
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+figcaption {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #4F6C6B;
+}
+
+#main {
+  background-color: #EDEDED;
+}
+
+img {
+  display: block;
+  border-bottom: 0.4em solid #F7DDD9;
+}
+
+#link-section {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 3em;
+  background-color: #F7DDD9;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blueviolet ;
+}
+
+a {
+  font-weight: bold;
+  color: black;
+}
+
+#image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img-div {
+  margin: auto;
+}
+
+
+#title {
+font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+figcaption {
+   font-style: italic;
+  font-size: 0.8em;
+  padding-left: 0.4em;
+  color: #1E292B;
+}
+
+#tribute-info {
+font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  width: 65%;
+  padding-top: 2em;
+  color: #1E292B;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#year1969, #year1975, #year1988, #year1990, #year1993, #year1994, #year2000, #year2002, #year2003, #year2007, #year2011 {
+    display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+
+.year {
+    justify-content: left;
+    color: #4F6C6B;
+    font-size: 1.6em;
+    padding-right: 2em;
+  }
+  
+    .event {
+  justify-content: right;
+  }
+
+ul > li {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) { 
+ #tribute-info {
+   width: 93%;
+   text-align: center;
+   }
+
+ #title {
+  font-size: 2.7em;
+   margin-top: 0;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+ }
+
+ header {
+   position: static;
+ }
+
+ #year1969, #year1975, #year1988, #year1990, #year1993, #year1994, #year2000, #year2002, #year2003, #year2007, #year2011 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0;
+}
+
+figcaption {
+  display: none;
+}
+
+.year {
+  font-size: 1.2em;
+}
+.event {
+padding-bottom: 2em;
+padding-top: 0;
+padding-right: 2em;
+}
+
+#link-section {
+  margin-top: 2em;
+}
+}
+
