@@ -95,7 +95,7 @@ font-family: 'Josefin Sans', sans-serif;
 #year1969, #year1975, #year1988, #year1990, #year1993, #year1994, #year2000, #year2002, #year2003, #year2007, #year2011 {
     display: flex;
   flex-direction: row;
-  gap: 3em;
+  gap: 2em;
 }
 
 
@@ -104,6 +104,15 @@ font-family: 'Josefin Sans', sans-serif;
     color: #4F6C6B;
     font-size: 1.6em;
     padding-right: 2em;
+  }
+
+  .closer {
+    padding-right: 1.5em;
+  }
+
+  .less-close {
+    padding-right: 1.8em;
+
   }
   
     .event {
